@@ -1,0 +1,50 @@
+.main-content {
+    display: flex;
+    background-color: #222831;
+    color: #ffffffaf;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #205d67;
+    padding: 40px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    justify-content:center;
+  }
+
+  .sidebar a {
+    color: #ffffff34;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .sidebar a:hover {
+    color:#ffffff;
+  }
+
+  .resume-content {
+    flex: 5;
+    padding: 20px;
+    margin-left: 270px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    height: 100vh;
+  }
+
+  .section p {
+    margin: 10px;
+  }
+  
+  .contact img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
